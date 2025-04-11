@@ -9,6 +9,11 @@ h1
     font-weight: 400;
 	color: #000000;
 }
+h1 ::after {
+    content: "👈";
+    margin-left: 8px;
+    font-size: 20px;
+}
 h2
 {
     font-weight: 600;
@@ -20,7 +25,6 @@ a
 	display: flex;
     flex-direction: row;
     align-items: center;
-    max-height: 10px;
 	font-size: 20px;
 }
 h1 ::before
@@ -29,10 +33,6 @@ h1 ::before
     color: black;
     margin-right: 8px;
     font-size: 30px;
-}
-li
-{
-    margin-bottom: 10px;
 }
 p
 {
