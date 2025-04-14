@@ -5,14 +5,11 @@
 }
 body
 {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
     padding: 10px 15px;
     max-width: 1170px;
     margin: 0 auto;
 }
-ul li
+li
 {
     margin-bottom: 18px;
 }
